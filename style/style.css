@@ -6,6 +6,7 @@ body {
 #top {
   background-color: #f9f9f9;
   border-bottom: #e4e4e4 1px solid;
+  min-width: 1000px;
 }
 
 #top img {
@@ -117,4 +118,63 @@ body {
   padding-bottom: 13px;
   padding-left: 18px;
   padding-right: 18px;
+}
+
+#results {
+  margin-left: 167px;
+  color: #808080;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 13px;
+  width: 600px;
+}
+
+#results .result {
+  color: #545454;
+  margin-top: 25px;
+}
+
+.result span {
+  color: #808080;
+}
+
+.result a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #1a0dab;
+}
+
+.result a:hover {
+  text-decoration: underline;
+}
+
+.result p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.result .link-green {
+  color: green;
+  font-size: 14px;
+  margin: 0;
+}
+
+#related {
+  color: black;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+td {
+  padding-right: 25px;
+  padding-bottom: 4px;
+}
+
+td a{
+  color: #1a0dab;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+td a:hover {
+  text-decoration: underline;
 }
